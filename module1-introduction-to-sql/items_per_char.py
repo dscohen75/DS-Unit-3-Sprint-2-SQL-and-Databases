@@ -20,7 +20,7 @@ GROUP BY cci.character_id
 LIMIT 20;
 """
 
-# How many weapons does each character have on average?
+# How many items does each character have ON AVERAGE?
 
 AVG_ITEMS = """
 SELECT AVG(num_items) FROM
