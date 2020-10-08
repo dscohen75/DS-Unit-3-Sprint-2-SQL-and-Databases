@@ -79,7 +79,7 @@ for character, pg_character in zip(characters, pg_characters):
 
 ## close the cursors and connections
 
-pg_cursor.close()
+pg_curs.close()
 pg_conn.close()
 sl_curs.close()
 sl_conn.close()
